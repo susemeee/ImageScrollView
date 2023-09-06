@@ -340,7 +340,6 @@ extension ImageScrollView: UIScrollViewDelegate {
     }
 
     public func scrollViewDidZoom(_ scrollView: UIScrollView) {
-        adjustFrameToCenter()
         imageScrollViewDelegate?.scrollViewDidZoom?(scrollView)
     }
 
